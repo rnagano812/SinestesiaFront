@@ -1,0 +1,13 @@
+{	
+	"author": "J.K. Rowling",
+    "description": "Harry Potter and the Deathly Hallows is the seventh and final novel of the Harry Potter series, written by British author J. K. Rowling. The book was released on 21 July 2007 by Bloomsbury Publishing in the United Kingdom, in the United States by Scholastic, and in Canada by Raincoast Books, ending the series that began in 1997 with the publication of Harry Potter and the Philosopher's Stone. The novel chronicles the events directly following Harry Potter and the Half-Blood Prince (2005), and the final confrontation between the wizards Harry Potter and Lord Voldemort.", 
+	"edition": "1st",
+    "id": "harry-potter", 
+    "images": [
+        "img/phones/harry-potter.0.jpg", 
+        "img/phones/harry-potter.1.jpg"
+    ], 
+    "name": "Harry Potter and the Deathly Hallows", 
+	"publisher": "Bloomsbury",
+	"status": "complete"
+}

@@ -1,0 +1,13 @@
+<div ng-controller="loginCtrl" class="container synHeader">
+	<form action ="/" id="myLogin" >
+		<h2 class="form-signin-heading">LogIn</h2>
+		<label for="username" >UserName</label><br>
+		<input type="text" id="username" ng-model="username"><br>
+		<label for="password" >Password</label><br>
+		<input type="password" id="password" ng-model="password"><br><br>
+		<div id="lowerLogButs">
+			<button type="button" class="btn btn-primary button-top" ng-model="singleModel" ng-click="submit()" >Login</button>
+			<button type="button" class="btn btn-primary button-top" ng-model="singleModel" >Register</button>
+		</div>
+	</form>
+</div>

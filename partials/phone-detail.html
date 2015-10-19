@@ -1,0 +1,62 @@
+<div class="phone-images">
+  <img ng-src="{{img}}"
+       class="phone"
+       ng-repeat="img in phone.images"
+       ng-class="{active: mainImageUrl==img}">
+</div>
+
+<h1>{{phone.name}}</h1>
+
+<p>{{phone.description}}</p>
+
+<ul class="phone-thumbs">
+  <li ng-repeat="img in phone.images">
+    <img ng-src="{{img}}" ng-click="setImage(img)">
+  </li>
+</ul>
+
+<ul class="specs">
+	<div class="col-lg-12">
+        <hr>
+			<h2 class="intro-text text-center">Descrever Imagem  </h2>
+        <hr>
+    </div>
+		<div style="text-align: center; padding-top: 25px">
+			<form id="formularioDescricao" action="descricaoIMG" method="POST">
+				<input type="hidden" id="id_descricao" name="id_descricao" value="${id_descricao}" />
+				<textarea  id="descricao" name="descricao" rows="10" cols="80"></textarea>
+				<br>
+				<input type="submit" value="Enviar">
+				<button type="button">Ver Contexto</button>
+			</form>
+		</div>
+  <li>
+    <span>Autor</span>
+    <dl>
+      <dt>Nome:</dt>
+      <dd>{{phone.author}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Edição</span>
+    <dl>
+      <dt>Número:</dt>
+      <dd>{{phone.edition}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Editora</span>
+    <dl>
+      <dt>Nome:</dt>
+      <dd>{{phone.publisher}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Estado</span>
+    <dl>
+      <dt>Completo?</dt>
+      <dd>{{phone.status | checkmark}}</dd>
+    </dl>
+  </li>
+  
+</ul>

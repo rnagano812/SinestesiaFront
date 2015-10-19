@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UFT-8">
+		<link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sigmar+One">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/animations.css">
+		<title>Sinestesia, compartilhe suas cores</title>
+		<script type="text/javascript" src="angular/angular.min.js"></script>
+		<script type="text/javascript" src="angular/angular-route.min.js"></script>
+		<script type="text/javascript" src="angular-bootstrap/ui-bootstrap-tpls.js"></script>
+		<script type="text/javascript" src="controller.js"></script>
+		<script src="js/filters.js"></script>
+		<script src="js/animations.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/services.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+	</head>
+	<body ng-app="mainApp">
+		<div class="synHeader2">
+			<h2 class="text-center">Sinestesia</h2>
+			<h4 class="text-center" style="color:#ccc;">Pictures for thought</h4>
+		</div>
+		<div class="view-container"></div>
+		<div class="view-frame" ng-view></div>
+	</body>
+</html>

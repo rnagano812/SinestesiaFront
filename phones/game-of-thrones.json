@@ -1,0 +1,13 @@
+{	
+	"author": "George R.R. Martin",
+    "description": "A Game of Thrones is the first novel in A Song of Ice and Fire, a series of high fantasy novels by American author George R. R. Martin. It was first published on August 6, 1996. The novel won the 1997 Locus Award[1] and was nominated for both the 1997 Nebula Award[1] and the 1997 World Fantasy Award.[2] The novella Blood of the Dragon, comprising the Daenerys Targaryen chapters from the novel, won the 1997 Hugo Award for Best Novella. In January 2011 the novel became a New York Times bestseller[3] and reached #1 on the list in July 2011.", 
+	"edition": "1st",
+    "id": "game-of-thrones", 
+    "images": [
+        "img/phones/game-of-thrones.0.jpg", 
+        "img/phones/game-of-thrones.1.jpg"
+    ], 
+    "name": "A Game of Thrones", 
+	"publisher": "Bantam Spectra",
+	"status": "complete"
+}
